@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-BACKEND_URL = "http://localhost:5000"
+BACKEND_URL = "http://backend:5000"
 
 st.title("EcoCoin Wallet Dashboard")
 
@@ -22,6 +22,10 @@ elif menu == "Send EcoCoins":
             "sender": sender, "receiver": receiver, "amount": amount
         })
         st.json(r.json())
+
+        mine = requests.get(f"{BACKEND_URL}/mine_block")
+        st.success("Block mined and transaction confirmed!")
+        st.json(mine.json())
 
 elif menu == "View Blockchain":
     r = requests.get(f"{BACKEND_URL}/get_chain")
