@@ -1,0 +1,21 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ecocoin-backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./app:/app
+
+  frontend:
+    image: python:3.11
+    container_name: ecocoin-frontend
+    working_dir: /frontend
+    volumes:
+      - ./frontend:/frontend
+    ports:
+      - "8501:8501"
+    command: bash -c "pip install streamlit requests && streamlit run app.py"
