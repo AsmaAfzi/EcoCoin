@@ -12,12 +12,12 @@ This leads to millions of climate-positive actions going unrecognized and unrewa
 EcoCoin bridges this gap by rewarding everyday sustainability with blockchain-backed carbon credits.
 
 Key Features:
-📊 Action Tracking – Log eco-actions (e.g., public transport, recycling, solar use)
-🔗 On-Chain Logging – Immutable, verifiable records
-✅ Proof Verification – Through APIs, IoT, or manual validation
-⚖️ Smart Contract Rewards – Issue tokens automatically based on verified impact
-🌍 Global Eco-Credit System – Standardized and scalable carbon token (EcoCoin)
-🔍 Auditable Impact – Public dashboards for transparency and accountability
+1. 📊 Action Tracking – Log eco-actions (e.g., public transport, recycling, solar use)
+2. 🔗 On-Chain Logging – Immutable, verifiable records
+3. ✅ Proof Verification – Through APIs, IoT, or manual validation
+4. ⚖️ Smart Contract Rewards – Issue tokens automatically based on verified impact
+5. 🌍 Global Eco-Credit System – Standardized and scalable carbon token (EcoCoin)
+6. 🔍 Auditable Impact – Public dashboards for transparency and accountability
 
 
 
